@@ -439,3 +439,29 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+
+-- 29 april added sql by Naim
+
+CREATE TABLE `rentals` (
+  `id` int(30) NOT NULL AUTO_INCREMENT,
+  `product_id` int(30) NOT NULL,
+  `start_date` datetime NOT NULL,
+  `end_date` datetime NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `rentals`
+ADD COLUMN `renter_name` varchar(255) NOT NULL,
+ADD COLUMN `renter_address` varchar(255) NOT NULL,
+ADD COLUMN `renter_phone` varchar(20) NOT NULL,
+ADD COLUMN `rental_cost` decimal(10, 2) NOT NULL;
+
+
+-- added by shayon
+
+ALTER TABLE rentals ADD COLUMN return_date date;

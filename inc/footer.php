@@ -69,11 +69,11 @@
    <footer>
    <div class="container">
               <p class="m-0 text-center ">Copyright 2023</p>
-              <p class="m-0 text-center ">Developed By: Md. Naimul Islam
-                 Siamul Islam shayon
-                 iftekhar hossain
+              <p class="m-0 text-center ">Developed By: Md. Naimul Islam,
+              Md. Siamul Islam Shayon and 
+              Md. Iftakher Alam
               </p>
-              <p class="m-0 text-center ">guided by DSU</p>
+              <p class="m-0 text-center "></p>
               <br>
               <br>
           </div>

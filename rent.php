@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   if (mysqli_query($conn, $sql)) {
     // Display the rental cost
     echo "The cost of renting this book for $num_days days is $rental_cost taka.
-    collect your book from the library by showing the pdf of this page 
+    collect your book from the BookStore by showing the pdf of this page 
     to collect ur pdf press ctrl + p";
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

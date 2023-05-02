@@ -44,6 +44,7 @@ $total = 0;
                             <div class="d-flex w-100 justify-content-between">
                                 <button class="btn btn-flat btn-dark">Cash on Delivery</button>
                                 <!-- <span id="paypal-button"></span> -->
+                                <button class="btn btn-flat btn-dark">Bksh</button>
                             </div>
                         </div>
                     </div>

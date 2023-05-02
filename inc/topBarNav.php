@@ -43,6 +43,8 @@
                         <li class="nav-item"><a class="nav-link" href="./?p=about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="rent.php">Rent</a></li>
                         <li class="nav-item"><a class="nav-link" href="return.php">return book</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/book_shop/admin/">admin</a></li>
+                        <!-- username: admin pass: admin123 -->
                     </ul>
                     <div class="d-flex align-items-center">
                       <?php if(!isset($_SESSION['userdata']['id'])): ?>
